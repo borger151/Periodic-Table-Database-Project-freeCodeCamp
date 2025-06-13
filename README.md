@@ -8,11 +8,13 @@ This course runs in a virtual Linux machine using Gitpod. Follow these instructi
 4. Once the virtual Linux machine is finished loading, start the CodeRoad extension by:
 - Clicking the "hamburger" menu near the top left of the VSCode window,
 - Going to the "View" menu,
-- Clicking on the "Command Palette" option,
 - and running the "CodeRoad: Start" command
+- Clicking on the "Command Palette" option,
 5. Follow the instructions in CodeRoad to complete the course
 
 ## Complete the tasks below
+You are started with a periodic_table database that has information about some chemical elements. 
+
 - You should rename the weight column to atomic_mass
 - You should rename the melting_point column to melting_point_celsius and the boiling_point column to boiling_point_celsius
 - Your melting_point_celsius and boiling_point_celsius columns should not accept null values
