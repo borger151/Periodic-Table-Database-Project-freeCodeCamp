@@ -19,7 +19,7 @@ PRINT_FUNCTION() {
     ATOMIC_NUMBER=$($PSQL "SELECT atomic_number FROM elements WHERE atomic_number = '$INPUT'")
   fi
 
-  if [[ -z ATOMIC_NUMBER ]]
+  # if [[ -z $ATOMIC_NUMBER ]]
   then
     echo I could not find that element in the database.
   else
