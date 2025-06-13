@@ -1,7 +1,7 @@
 #!/bin/bash
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
-# MAIN_FUNCTION() {
+MAIN_FUNCTION() {
   if [[ -z $1 ]]
   then
     echo Please provide an element as an argument.
@@ -10,7 +10,7 @@ PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
   fi
 }
 
-# PRINT_FUNCTION() {
+PRINT_FUNCTION() {
   INPUT=$1
   if [[ ! $INPUT =~ ^[0-9]+$ ]]
   then
@@ -34,4 +34,4 @@ PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
   fi
 }
 
-MAIN_FUNCTION $1
+# MAIN_FUNCTION $1
